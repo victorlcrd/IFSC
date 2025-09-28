@@ -1,0 +1,11 @@
+let obj : {
+  nome: string,
+  idade: number,
+  estudante: boolean,
+  cidade?: string
+}
+
+obj = { nome: 'Victor', idade: 19, estudante: true }
+obj.cidade = 'Macapá'
+
+console.log(obj)
